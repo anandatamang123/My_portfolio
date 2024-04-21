@@ -4,7 +4,7 @@ This is the personal portfolio website of Ananda Tamang, showcasing various proj
 
 ## Features
 
-- **Home Section**: Introduces Ananda and highlights her journey and skills.
+- **Home Section**: Introduces Ananda and highlights his journey and skills.
 - **Portfolio Section**: Features projects like the restaurant website which includes an interactive menu, a booking system, and a photo gallery.
 - **Contact Section**: A section for potential clients or employers to initiate conversations.
 - **Responsive Design**: Ensures the website looks good on all devices including desktops, tablets, and mobile phones.
