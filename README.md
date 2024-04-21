@@ -12,12 +12,12 @@ The homepage introduces visitors to who I am, featuring a brief introduction and
 ### About
 The about page delves deeper into my personal and professional background. It highlights my coding journey since the fall of 2023, my passion for technology, music, and movies. This page also showcases my learning experiences through platforms like freeCodeCamp.
 
-- **URL:** `about.html`
+- **URL:** `http://127.0.0.1:5500/aboutme.html`
 
 ### Portfolio
 The portfolio page displays my work and projects. Here, you can find details about the different projects I've undertaken, including a restaurant website project which is one of the key highlights.
 
-- **URL:** `portfolio.html`
+- **URL:** `http://127.0.0.1:5500/portfolio.html`
 
 ### Blog
 The blog section is where I share insights, tutorials, and experiences related to web development and technology. It's a space for both learning and sharing knowledge with others.
@@ -27,7 +27,7 @@ The blog section is where I share insights, tutorials, and experiences related t
 ### Contact
 On the contact page, visitors can find ways to reach out to me via email, social media, or a direct message form. This page ensures that potential clients or employers can easily get in touch.
 
-- **URL:** `contact.html`
+- **URL:** `http://127.0.0.1:5500/contact.html`
 
 ## Features
 
