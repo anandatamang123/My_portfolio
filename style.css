@@ -17,7 +17,7 @@ header {
 }
 .logo {
     font-size: 2em;
-    color: #555;
+    color: #202020;
     cursor: default;
 }
 .logo span {
@@ -28,8 +28,9 @@ header {
 }
 .navigation a {
     font-size: 1.1em;
-    color: #555;
+    color: #0d011f;
     text-decoration: none;
+    font-weight: bolder;
     margin-right: 40px;
     font-weight: 500;
     transition: .3s;
@@ -53,29 +54,31 @@ header {
 }
 .home {
     position: relative;
-    width: 50%;
+    width: 100%;
     height: 100vh;
-    background-size: 100%;
-    background-position: left;
+    background: url('IMG-20230730-WA0021.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
-    padding: 30px 100px;
-}
+    padding: 30px 100px;}
 .content {
     max-width: 500px;
-    color: #555;
+    color: #1a1010;
 }
 .content h2 {
     font-size: 3em;
 }
 .content h2 span {
-    color: #7d2ae8;
+    color: #411877;
 }
 .content h4 {
     font-size: 2em;
 }
 .content p {
     padding: 10px 0 40px 0;
+    color: #fbf8fde3;
+    background-blend-mode: color;
 }
 .btn-group a {
     color: #fff;
@@ -163,5 +166,149 @@ header {
 
 .btn:hover {
     background-color: #45a049;
+}
+p{
+    color: #100424;
+}
+/* about me edit */
+.about-me {
+    background: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/The-10-Tech-Trends-That-Will-Transform-Our-World/960x0.jpg?height=399&width=711&fit=bounds);
+}
+
+.about-me h1 {
+    color: #ebe5e5;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    color: #e3d7e6;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+/*contact edit */
+.contact {
+    background: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact .container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button.btn:hover {
+    background-color: #45a049;
+}
+
+.social-icons a {
+    color: #333;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+/*project edit*/
+.portfolio .content {
+    max-width: 800px;
+    margin: auto;
+    padding: 10%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    
+}
+
+.project {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.project:last-child {
+    border-bottom: none;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.project ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.project li {
+    margin-bottom: 5px;
+}
+
+.btn {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #45a049;
 }
 
